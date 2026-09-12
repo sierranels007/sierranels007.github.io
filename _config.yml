@@ -95,12 +95,12 @@ formspree-key:
 
 # Active color theme
 colors:
-  text: "#F2F4F7"
-  border: "#343A46"
-  link: "#7CA5FF"
-  highlight: "#4D7CFE"
-  background: "#0D0F14"
-  light_background: "#171B23"
+  text: "#121417"
+  border: "#C9CED6"
+  link: "#315E9B"
+  highlight: "#111827"
+  background: "#FAFAF8"
+  light_background: "#EAF3F7"
 
 
 
