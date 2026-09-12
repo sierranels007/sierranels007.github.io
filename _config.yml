@@ -7,132 +7,100 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
-
+title: "Sierra Nelson | Mechanical Engineering Portfolio"
 
 
 # Hero Section
-name: John Doe
-headline: headline message
-description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+name: Sierra Nelson
+headline: Mechanical Engineering Student | Design, Research & Additive Manufacturing
 
-# Place your profile image in /assets/images/profile-image/folder and edit the file name
+description: >-
+  I’m a mechanical engineering student at Florida A&M University who enjoys
+  figuring out why a design works, where it fails, and how to make it better.
+  My experience spans mechanical design, engineering research, CAD, prototype
+  development, testing, and additive manufacturing. At Penn State’s Applied
+  Research Laboratory, I worked on autonomous-system prototyping and
+  computational design optimization. I also founded Print Pro 3D Designs,
+  where I have translated customer ideas into more than 300 manufactured
+  products. I’m most interested in work that lets me combine analysis,
+  creativity, and hands-on problem-solving to build things that actually work.
+
+
+# Profile image
 profile_image: ./assets/images/profile-image/avatar.jpeg
 
 
-# Link your resume
-# You can place your resume in assets/resume/{resume.pdf or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing # or /assets/resume/resume.pdf
+# Resume
+resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing
 
 
-# Set up external links - this will show up as small icons next to your name.
-
-external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
-  github: leea12    # https://github.com/{your url slug} 
-  stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
-  medium:            # https://medium.com/@{your url slug} 
-  x-twitter:   # https://x.com/{your url slug} 
-  threads:            # https://threads.net/@{your url slug} 
-  instragram:       # https://instagram.com/{your url slug} 
-  youtube:           # https://youtube.com/@{your url slug} 
-  discord:            # https://discord.com/users/{your url slug} 
-  bluesky:           # https://bsky.app/profile/{your url slug} 
+# External links
+external-links:
+  linkedin: sierra-nelson04
+  github: sierranels007
+  stackoverflow:
+  medium:
+  x-twitter:
+  threads:
+  instragram:
+  youtube:
+  discord:
+  bluesky:
   
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: 3D Modeling
+  - category: Mechanical Engineering
     tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
-    - CATIA (Dassault Systèmes)
-  - category: Prototyping
+      - Mechanical Design
+      - Reverse Engineering
+      - Design Optimization
+      - Prototype Development and Testing
+      - Mechanics of Materials
+      - Mass-Property and Buoyancy Analysis
+      - Mechatronics
+
+  - category: CAD and Design Software
     tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
-  - category: Design Standards / Practices
+      - SolidWorks
+      - Siemens NX
+      - AutoCAD
+      - Shapr3D
+
+  - category: Additive Manufacturing
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
+      - Design for Additive Manufacturing
+      - FDM Additive Manufacturing
+      - Rapid Prototyping
+      - Multicolor FDM Production
+      - Print-Parameter Optimization
+      - Dimensional Refinement
+      - Quality Control and Troubleshooting
+      - Bambu Lab A1 with AMS
+      - Elegoo Neptune 3 Pro
+      - Bambu Studio
+      - Ultimaker Cura
+
+  - category: Technical Computing
     tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
-    tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+      - Python
+      - NumPy
+      - pymoo
+      - C++
+
+# Contact form
+# Leave blank until a Formspree account is connected.
+formspree-key:
 
 
-# Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
-
-
-
-# Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
-colors: # this is the basic theme
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-
-# A few examples. 
-basic theme:
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-  
-  mint theme:
-  text: "#2c3333"
-  border: "#e0f2ef"
-  link: "#40b3a2"
-  highlight: "#2a9d8f"
-  background: "#f7fbfa"
-  light_background: "#f0f9f7"
-  
-lemon theme:
-  text: "#2d2926"
-  border: "#f7f3e3"
-  link: "#ffc94d"
-  highlight: "#ffb800"
-  background: "#fffdf5"
-  light_background: "#fff9e6"
-  
-  pink theme:
-  text: "#2d2d2d"
-  border: "#f8e2e2"
-  link: "#ff8fa3"
-  highlight: "#ff4d6d"
-  background: "#fff8f8"
-  light_background: "#fff5f6"
+# Active color theme
+colors:
+  text: "#F2F4F7"
+  border: "#343A46"
+  link: "#7CA5FF"
+  highlight: "#4D7CFE"
+  background: "#0D0F14"
+  light_background: "#171B23"
 
 
 
