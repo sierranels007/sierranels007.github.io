@@ -99,13 +99,6 @@ The completed prototype successfully applied enough force and controlled motion 
 
 *Aluminum can positioned beneath the crushing plate during functional testing.*
 
-<video controls playsinline preload="metadata" style="width: 100%; max-width: 850px; border-radius: 6px;">
-  <source src="can-crusher-result.mp4" type="video/mp4">
-  Your browser does not support embedded video.
-</video>
-
-*System operation and functional test result.*
-
 ---
 
 ## Engineering Takeaways
