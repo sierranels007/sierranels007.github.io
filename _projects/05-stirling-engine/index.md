@@ -99,6 +99,6 @@ That linear piston motion traveled through the connecting links and crank mechan
 
 ## Engineering Takeaways
 
-This project connected CAD, engineering documentation, fabrication, assembly, and testing into one complete workflow. Building the physical engine showed me that a successful mechanism depends on more than getting each individual component right. The interfaces between parts—alignment, fit, clearance, and motion—are what determine whether the complete system actually works.
+This project connected CAD, engineering documentation, fabrication, assembly, and testing into one complete workflow. Building the physical engine showed me that a successful mechanism depends on more than getting each individual component right. The interfaces between parts alignment, fit, clearance, and motion are what determine whether the complete system actually works.
 
 It also gave me practical experience troubleshooting a real mechanical assembly. Seeing the engine convert heat into continuous flywheel rotation made the relationship between thermal input and mechanical motion feel a lot less theoretical.
