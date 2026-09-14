@@ -85,21 +85,6 @@ This kept the control system straightforward while still connecting the mechanic
 
 ---
 
-## Prototype Testing
-
-We tested the mechanism through repeated operating cycles while monitoring the crushing plate’s motion, actuator travel, structural alignment, and response to the user-operated switch.
-
-<video controls playsinline preload="metadata" style="display: block; width: 100%; max-width: 850px; margin: 1.5rem auto; border-radius: 6px;">
-  <source src="can-crusher-test.mp4" type="video/mp4">
-  Your browser does not support embedded video.
-</video>
-
-*Functional testing of the switch-controlled actuator and crushing mechanism.*
-
-Testing helped us identify mechanical interference, alignment issues, and integration problems that were not obvious during CAD development. It also allowed us to observe how the structure responded while the actuator applied force to the can.
-
----
-
 ## Functional Result
 
 The completed prototype successfully used the motor-driven actuator to apply enough force to crush an aluminum can.
