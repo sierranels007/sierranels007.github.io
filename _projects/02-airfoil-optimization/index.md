@@ -53,16 +53,16 @@ For each candidate design, the program evaluated how the selected material prope
 
 The natural frequencies were determined from the structural eigenvalue relationship:
 
-\[
-[K - \omega^2M]\phi = 0
-\]
+<div style="text-align: center; font-size: 1.35rem; margin: 1.5rem 0;">
+  [K - &omega;<sup>2</sup>M]&phi; = 0
+</div>
 
 where:
 
-- \(K\) is the stiffness matrix
-- \(M\) is the mass matrix
-- \(\omega\) is the natural frequency
-- \(\phi\) is the corresponding mode shape
+- **K** is the stiffness matrix
+- **M** is the mass matrix
+- **&omega;** is the natural frequency
+- **&phi;** is the corresponding mode shape
 
 A genetic algorithm was used to explore multiple combinations of design variables. This allowed the program to search beyond a single manually selected design and compare candidate solutions using a consistent engineering objective.
 
@@ -78,7 +78,7 @@ The project received the **2024 Best Project Award** from the ONR Pipeline Progr
 
 *2024 Best Project Award — Office of Naval Research Pipeline Program at Penn State Applied Research Laboratory.*
 
-More importantly, the project taught me how to connect mechanical-engineering theory with a computational design process. The code was not the end product—it was a tool for making and defending an engineering decision.
+More importantly, the project taught me how to connect mechanical-engineering theory with a computational design process. The code was not the end product, it was a tool for making and defending an engineering decision.
 
 ---
 
@@ -86,4 +86,4 @@ More importantly, the project taught me how to connect mechanical-engineering th
 
 This project strengthened my understanding of how mass, stiffness, material selection, geometry, and boundary conditions influence structural behavior.
 
-It also taught me how to organize a technical problem into design variables, constraints, calculations, and measurable results—then communicate the reasoning behind the final design.
+It also taught me how to organize a technical problem into design variables, constraints, calculations, and measurable results, then communicate the reasoning behind the final design.
