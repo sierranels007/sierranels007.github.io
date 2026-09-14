@@ -19,7 +19,7 @@ main-image: /print-pro-logo.jpeg
 
 ## From Side Project to Engineering Business
 
-I founded Print Pro 3D Designs in November 2024 as a way to turn ideas into physical products. Since then, I have designed and fulfilled more than 300 custom orders ranging from personalized keychains and organizational paddles to lighter cases, display pieces, and original character-inspired models.
+I founded Print Pro 3D Designs in November 2024 as a way to turn ideas into physical products. Since then, I have designed and fulfilled more than 300 custom orders ranging from personalized keychains and organizational paddles to lighter cases, display pieces, and character inspired models.
 
 Running the business means I handle more than the printing. I translate customer ideas into manufacturable geometry, prepare multicolor builds, test dimensions, troubleshoot equipment, inspect finished parts, and adjust the process when something does not come out right.
 
@@ -33,24 +33,22 @@ Basically, I get to be the designer, manufacturing engineer, quality department,
 
 ## Customer-Driven Product Design
 
-Most projects begin with a customer request, reference image, or rough idea. My job is to convert that information into geometry that can actually be manufactured.
+For custom paddles, the customer usually tells me who the paddle is for, the organization they represent, their preferred colors, and any names, dates, symbols, or themes they want included. From there, they give me room to add my own creativity and turn those details into a design that feels personal and actually looks cool.
 
-That process can include:
+Once I develop the visual layout, I turn it into geometry that can be manufactured. That process can include:
 
 - Converting graphics into usable design features
-- Adjusting dimensions for the intended product
-- Separating geometry for multicolor production
-- Selecting an orientation that balances appearance and print reliability
-- Accounting for nozzle width, layer height, clearances, and small features
+- Arranging text, dates, symbols, and images within the paddle
+- Selecting colors and separating geometry for multicolor production
+- Adjusting small features so they remain visible after slicing
+- Accounting for nozzle width, layer height, and part thickness
 - Reviewing the sliced model before committing material and machine time
-
-Customized paddles are one of the clearest examples. Each design combines customer-selected colors, text, dates, symbols, and organizational details within a limited physical space.
 
 {% include image-gallery.html images="paddle-design-1.jpeg,paddle-design-2.jpeg,paddle-design-3.jpeg" height="500" %}
 
-*Customized paddle layouts prepared for multicolor FDM manufacturing.*
+*Customized paddle layouts developed from customer requests and prepared for multicolor FDM manufacturing.*
 
-The challenge is not simply fitting everything onto the product. Fine lettering and layered graphics must remain readable after slicing, while the color transitions and geometry must still be practical to manufacture.
+The goal is to create something that represents the person receiving it while still working within the limits of the manufacturing process. Fine lettering, layered graphics, and small color regions must remain readable and practical to print, not just look good on the screen.
 
 ---
 
@@ -72,7 +70,7 @@ I also prepare custom wall art by converting two-dimensional artwork into layere
 
 {% include image-gallery.html images="art.jpeg" height="600" %}
 
-*Multicolor wall-art design prepared in the slicer with separate material assignments for each visual element.*
+*Multicolor wall art design prepared in the slicer with separate material assignments for each visual element.*
 
 This type of project requires balancing visual detail with manufacturability. Thin outlines, small color regions, and narrow features must be large enough for the nozzle to reproduce cleanly while preserving the appearance of the original artwork.
 
@@ -108,7 +106,7 @@ For larger orders, I arrange multiple components on the build plate, assign colo
 
 *Successful batch production and a completed multicolor keychain.*
 
-Batch manufacturing raised the importance of repeatability. A problem affecting one part can affect an entire build plate, so first-layer inspection and early detection save both time and material.
+Batch manufacturing raised the importance of repeatability. A problem affecting one part can affect an entire build plate, so first layer inspection and early detection save both time and material.
 
 ---
 
@@ -122,8 +120,8 @@ Additive manufacturing is not always a clean timelapse followed by a perfect par
 
 When a print fails, I work through the system instead of immediately running the same file again. Depending on the failure, I inspect:
 
-- First-layer adhesion and bed cleanliness
-- Build-plate temperature
+- First layer adhesion and bed cleanliness
+- Build plate temperature
 - Part orientation and contact area
 - Cooling and fan settings
 - Nozzle condition and material flow
@@ -146,13 +144,13 @@ Failures like this require the printer to be stopped, cooled, inspected, and cle
 
 ## Equipment and Process Growth
 
-My first printer was an Elegoo Neptune 3 Pro—affectionately known as the “printer from hell.” Learning on that machine gave me a strong understanding of bed leveling, first-layer behavior, nozzle maintenance, filament loading, and how mechanical or process changes affect print quality.
+My first printer was an Elegoo Neptune 3 Pro. Learning on that machine gave me a strong understanding of bed leveling, first layer behavior, nozzle maintenance, filament loading, and how mechanical or process changes affect print quality.
 
 {% include image-gallery.html images="printer-from-hell.jpeg" height="600" %}
 
-*The Elegoo Neptune 3 Pro—affectionately known as the “printer from hell”—where I developed much of my hands-on troubleshooting experience.*
+*The Elegoo Neptune 3 Pro, where I developed much of my hands on troubleshooting experience.*
 
-I later expanded to a Bambu Lab A1 with an Automatic Material System, which increased my multicolor capability and production speed. The newer equipment improved the workflow, but it did not remove the need to understand the process. Automated calibration can help establish settings; it cannot replace knowing what a failed layer, blocked nozzle, feeding problem, or dimensional issue looks like.
+I later expanded to a Bambu Lab A1 with an Automatic Material System, which increased my multicolor capability and production speed. The newer equipment improved the workflow, but it did not remove the need to understand the process. Automated calibration can help establish settings, but it can't replace knowing what a failed layer, blocked nozzle, feeding problem, or dimensional issue looks like.
 
 ---
 
@@ -174,8 +172,8 @@ Parts that do not meet the expected quality are corrected or reproduced. Custome
 
 ## Engineering Takeaways
 
-Print Pro has taught me that additive manufacturing is not just a fabrication method. It is a full design-and-production system where geometry, material behavior, machine condition, process settings, and quality requirements all interact.
+Print Pro has taught me that additive manufacturing is not just a fabrication method. It is a full design and production system where geometry, material behavior, machine condition, process settings, and quality requirements all interact.
 
-The business has made me more comfortable moving between creative design and technical problem-solving. Some days that means developing a completely new product. Other days it means diagnosing why thirty parts failed at once without letting the printer know it hurt my feelings.
+The business has made me more comfortable moving between creative design and technical problem solving. Some days that means developing a completely new product. Other days it means diagnosing why a part failed, fixing the problem, and trying again without letting it hurt my feelings.
 
 More importantly, completing hundreds of customer orders has taught me how to make design decisions under real constraints: time, material, manufacturability, equipment capability, quality, and what the customer actually asked for.
