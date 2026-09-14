@@ -23,7 +23,7 @@ description: >-
   computational design optimization. I also founded Print Pro 3D Designs,
   where I have translated customer ideas into more than 300 manufactured
   products. I’m most interested in work that lets me combine analysis,
-  creativity, and hands-on problem-solving to build things that actually work.
+  creativity, and hands on problem solving to build things that actually work.
 
 
 # Profile image
@@ -53,8 +53,7 @@ skills:
   - category: Mechanical Design and Prototyping
     tools:
       - Mechanical Design
-      - Product Design
-      - Physical-to-CAD Recreation
+      - Physical to CAD Recreation
       - Engineering Drawings and BOMs
       - Dimensional Measurement and Fit
       - Prototype Development and Testing
@@ -74,7 +73,7 @@ skills:
       - FDM Additive Manufacturing
       - Multicolor FDM Production
       - Slicing and Build Preparation
-      - Print-Parameter Optimization
+      - Print Parameter Optimization
       - Quality Control and Troubleshooting
 
   - category: Mechatronics and Computing
