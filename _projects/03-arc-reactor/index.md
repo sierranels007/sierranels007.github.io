@@ -17,11 +17,11 @@ main-image: /arc reactor.png
 
 ## Project Context
 
-I completed this reverse-engineering capstone for my Mechanical Engineering Tools Laboratory course. The objective was to recreate an existing physical product as a complete SolidWorks assembly.
+I completed this CAD recreation as the capstone project for my Mechanical Engineering Tools Laboratory course. The goal was to take an existing physical assembly, document its geometry, and recreate it as a complete SolidWorks assembly.
 
-I selected an Iron Man arc reactor because its layered construction, repeated features, nested rings, and large number of components made it a much more interesting challenge than modeling a single solid object.
+I chose an Iron Man arc reactor because it was a much better challenge than modeling a single solid part. Its layered construction, nested rings, repeated features, and large number of interconnected components required careful measurement and assembly planning.
 
-This was a CAD and reverse-engineering project. I did not manufacture or 3D print the physical reactor shown in the photographs.
+My work focused on disassembling the physical reference, measuring and sketching its components, building the individual CAD models, and reconstructing the full assembly in SolidWorks. I did not manufacture or 3D print the physical reactor shown in the photographs.
 
 ---
 
