@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Autonomous Fish & Buoyancy Control
+title: Buoyancy Control System for an Autonomous Fish
 description: Supported the development of an autonomous underwater research platform by combining buoyancy analysis, CAD mass-property evaluation, additive manufacturing, electronics assembly, and prototype testing.
 skills:
   - Buoyancy Analysis
@@ -13,7 +13,7 @@ skills:
   - Material Evaluation
   - Soldering
   - Engineering Documentation
-main-image: /fish-prototype.jpg
+main-image: /fish.jpeg
 ---
 
 ## Project Context
