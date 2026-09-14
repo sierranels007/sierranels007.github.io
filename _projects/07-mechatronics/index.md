@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mechatronics Fundamentals
-description: Built and tested Arduino-based LED, DC motor, and stepper motor circuits to explore the connection between electronic controls and physical motion.
+description: Built and tested Arduino based LED, DC motor, and stepper motor circuits to explore the connection between electronic controls and physical motion.
 skills:
   - Arduino
   - Mechatronics
@@ -14,7 +14,7 @@ skills:
   - Electrical Troubleshooting
   - Functional Testing
 
-main-image: /motor.jpeg
+main-image: /breadboard.jpeg
 ---
 
 ## Project Overview
@@ -82,7 +82,7 @@ Unlike a basic DC motor, a stepper motor rotates through controlled increments. 
 This build required coordination between:
 
 - Arduino output signals
-- Motor-driver input connections
+- Motor driver input connections
 - Stepper motor wiring
 - External power
 - Command sequence and timing
@@ -97,10 +97,10 @@ The circuit gave me a better understanding of how digital commands become physic
 These projects involved a lot of checking, rewiring, and trying again. When a circuit did not work as intended, I worked through the system by checking:
 
 - Power and ground connections
-- Jumper-wire placement
+- Jumper wire placement
 - Arduino pin assignments
 - Component polarity
-- Motor-driver connections
+- Motor driver connections
 - External supply settings
 - Whether the code and physical wiring matched
 - The response of the LED or motor after each change
