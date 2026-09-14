@@ -86,15 +86,17 @@ skills:
       - C++
       
 coursework:
-  - Engineering Design Methods
-  - Mechanics of Materials
-  - Mechanical Systems
-  - Materials Science
-  - Mechatronics
-  - Advanced Dynamics
-  - System Dynamics and Vibrations
-  - Control Systems
-  - Thermal-Fluids
+  - category: Relevant Coursework
+    tools:
+      - Engineering Design Methods
+      - Mechanics of Materials
+      - Mechanical Systems
+      - Materials Science
+      - Mechatronics
+      - Advanced Dynamics
+      - System Dynamics and Vibrations
+      - Control Systems
+      - Thermal-Fluids
 
 # Contact form
 # Leave blank until a Formspree account is connected.
