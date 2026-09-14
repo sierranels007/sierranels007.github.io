@@ -22,6 +22,9 @@ During the Penn State Applied Research Laboratory’s SOAR Program, I supported 
 
 This project pushed me beyond simply producing parts. I had to connect CAD data, material properties, displaced volume, component mass, and physical testing to understand how manufacturing decisions affected the behavior of the complete system.
 
+{% include image-gallery.html images="penn-state-poster.jpeg" height="700" %}
+
+*Research poster documenting the autonomous fish buoyancy-control project completed during the Penn State Applied Research Laboratory SOAR Program.*
 ---
 
 ## My Role
