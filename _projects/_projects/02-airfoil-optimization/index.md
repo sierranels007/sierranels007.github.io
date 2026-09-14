@@ -11,7 +11,7 @@ skills:
   - Natural-Frequency Evaluation
   - Eigenvalue Analysis
   - Technical Communication
-main-image: /airfoil-poster.jpeg
+main-image: /airfoil.jpeg
 ---
 
 ## Project Context
@@ -73,6 +73,10 @@ A genetic algorithm was used to explore multiple combinations of design variable
 The optimization process identified a combination of material properties and geometry that improved the predicted vibration performance of the structure.
 
 The project received the **2024 Best Project Award** from the ONR Pipeline Program.
+
+{% include image-gallery.html images="award.jpeg" height="500" %}
+
+*2024 Best Project Award — Office of Naval Research Pipeline Program at Penn State Applied Research Laboratory.*
 
 More importantly, the project taught me how to connect mechanical-engineering theory with a computational design process. The code was not the end product—it was a tool for making and defending an engineering decision.
 
