@@ -14,7 +14,7 @@ skills:
   - Quality Control
   - Printer Maintenance
 
-main-image: /print-pro-showcase.jpeg
+main-image: /print-pro-logo.jpeg
 ---
 
 ## From Side Project to Engineering Business
