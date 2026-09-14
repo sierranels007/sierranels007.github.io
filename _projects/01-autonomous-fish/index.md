@@ -25,11 +25,13 @@ This project pushed me beyond simply producing parts. I had to connect CAD data,
 {% include image-gallery.html images="penn-state-poster.jpeg" height="700" %}
 
 *Research poster documenting the autonomous fish buoyancy-control project completed during the Penn State Applied Research Laboratory SOAR Program.*
+
+
 ---
 
 ## My Role
 
-I worked from an existing robotic-fish design and focused on prototype fabrication, buoyancy analysis, material evaluation, electronics assembly, and engineering documentation.
+I worked from an existing robotic fish design and focused on prototype fabrication, buoyancy analysis, material evaluation, electronics assembly, and engineering documentation.
 
 My contributions included:
 
@@ -47,24 +49,24 @@ My contributions included:
 
 The fish needed enough buoyant force to support its structure and internal components while remaining controllable underwater. I used the relationship between fluid density, gravitational acceleration, and displaced volume to evaluate the design:
 
-\[
-F_B = \rho gV
-\]
+<div style="text-align: center; font-size: 1.35rem; margin: 1.5rem 0;">
+  F<sub>B</sub> = &rho;gV
+</div>
 
 where:
 
-- \(F_B\) is the buoyant force
-- \(\rho\) is the fluid density
-- \(g\) is gravitational acceleration
-- \(V\) is the displaced fluid volume
+- **F<sub>B</sub>** is the buoyant force
+- **&rho;** is the fluid density
+- **g** is gravitational acceleration
+- **V** is the displaced fluid volume
 
-I compared the required buoyant force with estimated component mass and SolidWorks mass-property data. This connected the CAD model to the physical system and helped define the volume requirements for the buoyancy-control concept.
+I compared the required buoyant force with the estimated component mass and SolidWorks mass-property data. This connected the CAD model to the physical system and helped define the volume requirements for the buoyancy-control concept.
 
 ---
 
 ## Prototype Fabrication and Evaluation
 
-Prototype segments were produced using both FDM and resin-based additive manufacturing. The Formlabs Form 3L and Rigid 10K resin provided an opportunity to evaluate a stiff engineering material alongside conventional FDM components.
+Prototype segments were produced using both FDM and resin based additive manufacturing. The Formlabs Form 3L and Rigid 10K resin provided an opportunity to evaluate a stiff engineering material alongside conventional FDM components.
 
 After fabrication, I inspected the parts and considered how material choice, component mass, geometry, and manufacturing method could affect assembly and buoyancy. The goal was not just to create accurate parts—it was to understand how those parts influenced system-level performance.
 
