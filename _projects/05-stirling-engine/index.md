@@ -21,10 +21,6 @@ This project took a Stirling engine from engineering drawings to a functioning m
 
 A Stirling engine converts thermal energy into mechanical motion using the expansion and contraction of a working gas. Unlike an internal-combustion engine, the heat source remains outside the engine. That makes the mechanical relationships between the displacer, power piston, crankshaft, connecting links, and flywheel especially important.
 
-{% include image-gallery.html images="engine.jpeg" height="600" %}
-
-*Completed Stirling engine during functional testing with an external heat source.*
-
 ---
 
 ## CAD and Assembly Development
@@ -79,21 +75,6 @@ My work included:
 - Making adjustments during assembly to reduce binding
 
 This stage reinforced how small dimensional differences can affect the performance of an entire mechanism. A component can look correct by itself and still create friction or misalignment once it becomes part of an assembly.
-
----
-
-## Functional Testing
-
-During testing, the burner supplied heat to the displacer cylinder and created the temperature difference required to operate the engine. The displacer shifted the working gas between the hot and cool regions, while the power piston converted the resulting pressure changes into mechanical motion.
-
-That linear piston motion traveled through the connecting links and crank mechanism, producing continuous rotation of the flywheel.
-
-<video controls playsinline preload="metadata" style="display: block; width: 100%; max-width: 500px; margin: 1.5rem auto; border-radius: 12px;">
-  <source src="stirling-engine-test.mp4" type="video/mp4">
-  Your browser does not support embedded video.
-</video>
-
-*Functional test demonstrating sustained flywheel rotation produced by the heated Stirling engine.*
 
 ---
 
