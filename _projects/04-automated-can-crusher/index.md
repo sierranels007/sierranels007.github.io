@@ -33,7 +33,7 @@ My work included:
 - Designing mechanical components in SolidWorks
 - Supporting the design of the can holder and crushing plate
 - Developing mounting and actuator-support geometry
-- Producing selected components using FDM additive manufacturing
+- Producing the actuator housing using FDM additive manufacturing
 - Assisting with Arduino, motor, button, and sensor integration
 - Evaluating the alignment between the actuator, crushing plate, and can
 - Participating in system assembly and functional testing
@@ -55,6 +55,10 @@ The mechanical design included:
 - A rigid enclosure
 - A front access door
 - CAD-designed and additively manufactured components
+
+{% include image-gallery.html images="actuator-housing.jpeg" height="550" %}
+
+*FDM-printed actuator housing used to support the motor-driven mechanism and maintain alignment during operation.*
 
 The position of the crushing plate and can holder was evaluated to reduce off-center loading. Misalignment could cause the can to tilt, buckle unpredictably, or interfere with the enclosure instead of compressing cleanly.
 
