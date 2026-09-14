@@ -1,26 +1,27 @@
 ---
 layout: post
 title: Automated Can Crusher
-description: Collaborated on the design and construction of a functional automated can crusher integrating mechanical components, CAD-designed parts, a motor-driven crushing mechanism, sensors, Arduino control, and prototype testing.
+description: Collaborated on the design and construction of a functional can crusher integrating mechanical components, CAD-designed parts, a switch controlled actuator, Arduino control, additive manufacturing, and prototype testing.
 skills:
   - Mechanical Design
   - SolidWorks
   - Mechatronics
   - Arduino
   - Stepper Motor Control
-  - Sensor Integration
   - FDM Additive Manufacturing
   - Prototype Assembly
-  - System Testing
+  - System Integration
+  - Functional Testing
   - Troubleshooting
+
 main-image: /can-crusher.jpeg
 ---
 
 ## Project Context
 
-This team project challenged us to design and build a functional system capable of positioning and crushing an aluminum can automatically.
+This team project challenged us to design and build an electromechanical system capable of crushing an aluminum can using a motor driven actuator.
 
-The project required more than creating a crushing force. We also had to consider can placement, actuator alignment, structural support, motor control, sensor feedback, user interaction, and the sequence of the complete system.
+Creating enough force was only one part of the challenge. We also had to consider can placement, actuator alignment, structural support, motor control, user operation, and how the mechanical and electrical components would function as one system.
 
 ---
 
@@ -34,7 +35,7 @@ My work included:
 - Supporting the design of the can holder and crushing plate
 - Developing mounting and actuator-support geometry
 - Producing the actuator housing using FDM additive manufacturing
-- Assisting with Arduino, motor, button, and sensor integration
+- Assisting with Arduino, motor driver, and switch integration
 - Evaluating the alignment between the actuator, crushing plate, and can
 - Participating in system assembly and functional testing
 - Troubleshooting mechanical and electrical integration issues
@@ -45,7 +46,7 @@ Because this was a team project, the final prototype combined our individual mec
 
 ## Mechanical Design
 
-The crushing mechanism had to transfer force through the center of the can while remaining aligned throughout its motion.
+The crushing mechanism had to transfer force through the center of the can while remaining aligned throughout its vertical motion.
 
 The mechanical design included:
 
@@ -54,11 +55,11 @@ The mechanical design included:
 - An actuator and motor-support structure
 - A rigid enclosure
 - A front access door
-- CAD-designed and additively manufactured components
+- CAD designed and additively manufactured components
 
 {% include image-gallery.html images="actuator-housing.jpeg" height="550" %}
 
-*FDM-printed actuator housing used to support the motor-driven mechanism and maintain alignment during operation.*
+*FDM-printed actuator housing used to support the motor-driven mechanism and maintain its alignment during operation.*
 
 The position of the crushing plate and can holder was evaluated to reduce off-center loading. Misalignment could cause the can to tilt, buckle unpredictably, or interfere with the enclosure instead of compressing cleanly.
 
@@ -66,49 +67,55 @@ The position of the crushing plate and can holder was evaluated to reduce off-ce
 
 ## System Integration
 
-The mechanical assembly was integrated with an Arduino-based control system, stepper-motor components, user inputs, sensors, and a display.
+The mechanical assembly was integrated with an Arduino, stepper motor, motor driver, and user operated switch.
 
-The control sequence allowed the system to:
+The switch controlled the direction of the actuator, allowing the crushing plate to move downward to compress the can and upward to return to its starting position.
 
-1. Detect or receive a user command
-2. Position the crushing mechanism
-3. Apply the crushing motion
-4. Stop or reverse the mechanism
-5. Communicate system status to the user
+The operating sequence was straightforward:
 
-This stage required us to treat the crusher as one connected system. A mechanical component could work correctly by itself but still create problems if its position, travel, or timing did not match the electronics and control sequence.
+1. The user activated the switch
+2. The Arduino sent a control signal to the motor driver
+3. The stepper motor drove the actuator
+4. The actuator moved the crushing plate up or down
+5. The user released or reversed the switch to stop or change direction
+
+The actuator did not automatically locate or position the crushing mechanism. Its movement was controlled directly by the user through the switch.
+
+This kept the control system straightforward while still connecting the mechanical structure, electronics, motor, and actuator into one working prototype.
 
 ---
 
 ## Prototype Testing
 
-We tested the mechanism through repeated operating cycles while monitoring motion, alignment, sensor behavior, and system response.
+We tested the mechanism through repeated operating cycles while monitoring the crushing plate’s motion, actuator travel, structural alignment, and response to the user-operated switch.
 
-<video controls playsinline preload="metadata" style="width: 100%; max-width: 850px; border-radius: 6px;">
+<video controls playsinline preload="metadata" style="display: block; width: 100%; max-width: 850px; margin: 1.5rem auto; border-radius: 6px;">
   <source src="can-crusher-test.mp4" type="video/mp4">
   Your browser does not support embedded video.
 </video>
 
-*Prototype testing of the integrated crushing mechanism and control system.*
+*Functional testing of the switch-controlled actuator and crushing mechanism.*
 
-Testing helped us identify mechanical interference, positioning issues, and integration problems that were not obvious during CAD development.
+Testing helped us identify mechanical interference, alignment issues, and integration problems that were not obvious during CAD development. It also allowed us to observe how the structure responded while the actuator applied force to the can.
 
 ---
 
 ## Functional Result
 
-The completed prototype successfully applied enough force and controlled motion to crush an aluminum can.
+The completed prototype successfully used the motor-driven actuator to apply enough force to crush an aluminum can.
 
 {% include image-gallery.html images="crushed-can.jpeg" height="550" %}
 
 *Aluminum can positioned beneath the crushing plate during functional testing.*
 
+The crushing plate traveled vertically through the enclosure while the can holder helped keep the can beneath the actuator. After compression, the switch could be reversed to raise the plate and reset the system.
+
 ---
 
 ## Engineering Takeaways
 
-This project showed me how quickly a design becomes more complicated when mechanical hardware, electronics, controls, and user interaction have to work together.
+This project showed me how quickly a design becomes more complicated when mechanical hardware, electronics, controls, and user operation have to work together.
 
-The biggest lesson was that successful integration depends on checking the relationships between components—not just designing each part independently. Actuator travel, structural support, can position, sensor placement, and control timing all had to make sense as one system.
+The biggest lesson was that successful integration depends on checking the relationships between components, not just designing each part independently. Actuator travel, structural support, crushing plate alignment, can placement, motor direction, and switch response all had to make sense as one system.
 
-It strengthened my ability to work through an imperfect prototype, diagnose problems across multiple engineering areas, and keep refining the design until the system performed its intended function.
+It strengthened my ability to work through an imperfect prototype, diagnose problems across multiple engineering areas, and refine the design until the system performed its intended function.
