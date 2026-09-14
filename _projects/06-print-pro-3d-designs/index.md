@@ -66,6 +66,16 @@ I also develop original products from an initial concept through a finished phys
 
 *Physical multicolor Kelp Shake produced from the digital model.*
 
+### Multicolor Wall Art
+
+I also prepare custom wall art by converting two-dimensional artwork into layered, printable geometry. The design is separated by color in the slicer, where I review the boundaries, small details, and material assignments before production.
+
+{% include image-gallery.html images="art.jpeg" height="600" %}
+
+*Multicolor wall-art design prepared in the slicer with separate material assignments for each visual element.*
+
+This type of project requires balancing visual detail with manufacturability. Thin outlines, small color regions, and narrow features must be large enough for the nozzle to reproduce cleanly while preserving the appearance of the original artwork.
+
 Seeing the CAD model become a physical product provides immediate design feedback. Features that look good on a screen may need thicker walls, larger lettering, different clearances, or another build orientation to print successfully.
 
 ---
