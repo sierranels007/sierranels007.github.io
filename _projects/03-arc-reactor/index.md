@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Iron Man Arc Reactor Reverse Engineering
+title: Iron Man Arc Reactor CAD Recreation
 description: Reverse-engineered a physical Iron Man arc reactor by disassembling it, measuring its components with digital calipers, documenting the geometry by hand, and rebuilding the complete multi-part assembly in SolidWorks.
 skills:
   - Reverse Engineering
@@ -25,7 +25,7 @@ This was a CAD and reverse-engineering project. I did not manufacture or 3D prin
 
 ---
 
-## Reverse-Engineering Process
+## Measurement and Planning Process
 
 I began by carefully disassembling the physical reactor so I could inspect each component individually. Instead of estimating the geometry from photographs, I used digital calipers to measure features such as:
 
@@ -112,8 +112,6 @@ The final result was a detailed SolidWorks reconstruction of the physical arc re
 
 ## What I Learned
 
-This project strengthened my ability to translate a complex physical object into organized engineering geometry.
-
-The biggest lesson was that reverse engineering is not simply copying what an object looks like. It requires understanding how the parts relate, deciding which dimensions control function and fit, developing a logical modeling sequence, and checking the CAD assembly against the physical reference.
+This project showed me that accurately recreating a physical assembly requires more than matching its appearance. I had to understand how the parts related, identify the dimensions controlling fit and placement, develop a logical modeling sequence, and compare the completed CAD assembly with the physical reference.
 
 It also improved my confidence with large SolidWorks assemblies and taught me to use sketches, measurements, drawings, exploded views, and bills of materials as connected parts of one engineering workflow.
