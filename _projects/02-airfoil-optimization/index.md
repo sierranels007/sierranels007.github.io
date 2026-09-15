@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Airfoil Structural Design Optimization
-description: Developed a Python-based optimization workflow to evaluate airfoil structural variables and identify a lightweight configuration with improved vibration performance.
+description: Developed a Python based optimization workflow to evaluate airfoil structural variables and identify a lightweight configuration with improved vibration performance.
 skills:
   - Design Optimization
   - Python
   - NumPy
   - pymoo
   - Structural Analysis
-  - Natural-Frequency Evaluation
+  - Natural Frequency Evaluation
   - Eigenvalue Analysis
   - Technical Communication
 main-image: /airfoil.jpeg
@@ -16,7 +16,7 @@ main-image: /airfoil.jpeg
 
 ## Project Context
 
-During the 2024 Office of Naval Research Pipeline Program at Penn State’s Applied Research Laboratory, I worked on a structural design optimization project focused on minimizing vibration in an airfoil-inspired beam.
+During the 2024 Office of Naval Research Pipeline Program at Penn State’s Applied Research Laboratory, I worked on a structural design optimization project focused on minimizing vibration in an airfoil inspired beam.
 
 The challenge was to improve dynamic performance without treating mass, stiffness, geometry, and material selection as separate decisions. Each variable influenced the structural response of the complete system.
 
@@ -39,7 +39,7 @@ My work included:
 - Defining material and geometric design variables
 - Calculating structural mass and stiffness matrices
 - Evaluating eigenvalues and natural frequencies
-- Implementing a genetic-algorithm workflow in Python
+- Implementing a genetic algorithm workflow in Python
 - Using NumPy for numerical calculations
 - Using pymoo to manage the optimization process
 - Comparing candidate designs based on performance
