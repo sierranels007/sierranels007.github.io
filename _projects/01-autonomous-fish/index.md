@@ -68,7 +68,7 @@ I compared the required buoyant force with the estimated component mass and Soli
 
 Prototype segments were produced using both FDM and resin based additive manufacturing. The Formlabs Form 3L and Rigid 10K resin provided an opportunity to evaluate a stiff engineering material alongside conventional FDM components.
 
-After fabrication, I inspected the parts and considered how material choice, component mass, geometry, and manufacturing method could affect assembly and buoyancy. The goal was not just to create accurate parts—it was to understand how those parts influenced system-level performance.
+After fabrication, I inspected the parts and considered how material choice, component mass, geometry, and manufacturing method could affect assembly and buoyancy. The goal was not just to create accurate parts, it was to understand how those parts influenced system-level performance.
 
 ---
 
