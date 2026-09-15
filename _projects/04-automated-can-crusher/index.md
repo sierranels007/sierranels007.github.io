@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Automated Can Crusher
-description: Collaborated on the design and construction of a functional can crusher integrating mechanical components, CAD-designed parts, a switch controlled actuator, Arduino control, additive manufacturing, and prototype testing.
+description: Collaborated on the design and construction of a functional can crusher integrating mechanical components, CAD designed parts, a switch controlled actuator, Arduino control, additive manufacturing, and prototype testing.
 skills:
   - Mechanical Design
   - SolidWorks
@@ -33,7 +33,7 @@ My work included:
 
 - Designing mechanical components in SolidWorks
 - Supporting the design of the can holder and crushing plate
-- Developing mounting and actuator-support geometry
+- Developing mounting and actuator support geometry
 - Producing the actuator housing using FDM additive manufacturing
 - Assisting with Arduino, motor driver, and switch integration
 - Evaluating the alignment between the actuator, crushing plate, and can
@@ -52,7 +52,7 @@ The mechanical design included:
 
 - A vertical crushing plate
 - A holder to maintain the can’s position
-- An actuator and motor-support structure
+- An actuator and motor support structure
 - A rigid enclosure
 - A front access door
 - CAD designed and additively manufactured components
@@ -61,7 +61,7 @@ The mechanical design included:
 
 *FDM-printed actuator housing used to support the motor-driven mechanism and maintain its alignment during operation.*
 
-The position of the crushing plate and can holder was evaluated to reduce off-center loading. Misalignment could cause the can to tilt, buckle unpredictably, or interfere with the enclosure instead of compressing cleanly.
+The position of the crushing plate and can holder was evaluated to reduce off center loading. Misalignment could cause the can to tilt, buckle unpredictably, or interfere with the enclosure instead of compressing cleanly.
 
 ---
 
@@ -87,7 +87,7 @@ This kept the control system straightforward while still connecting the mechanic
 
 ## Functional Result
 
-The completed prototype successfully used the motor-driven actuator to apply enough force to crush an aluminum can.
+The completed prototype successfully used the motor driven actuator to apply enough force to crush an aluminum can.
 
 {% include image-gallery.html images="crushed-can.jpeg" height="550" %}
 
