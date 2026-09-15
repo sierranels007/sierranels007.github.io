@@ -106,7 +106,7 @@ The final result was a detailed SolidWorks reconstruction of the physical arc re
 
 {% include image-gallery.html images="arcreact1.png" height="450" %}
 
-*Physical arc reactor used as the reverse-engineering reference.*
+*Physical arc reactor used as the recreation reference.*
 
 ---
 
