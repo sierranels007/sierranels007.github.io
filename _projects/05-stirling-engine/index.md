@@ -19,7 +19,7 @@ main-image: /engine.jpeg
 
 This project took a Stirling engine from engineering drawings to a functioning mechanical assembly. I developed the engine assembly in SolidWorks, documented its construction, fabricated components in the machine shop, and assembled the complete system.
 
-A Stirling engine converts thermal energy into mechanical motion using the expansion and contraction of a working gas. Unlike an internal-combustion engine, the heat source remains outside the engine. That makes the mechanical relationships between the displacer, power piston, crankshaft, connecting links, and flywheel especially important.
+A Stirling engine converts thermal energy into mechanical motion using the expansion and contraction of a working gas. Unlike an internal combustion engine, the heat source remains outside the engine. That makes the mechanical relationships between the displacer, power piston, crankshaft, connecting links, and flywheel especially important.
 
 ---
 
