@@ -19,7 +19,7 @@ main-image: /arc reactor.png
 
 I completed this CAD recreation as the capstone project for my Mechanical Engineering Tools Laboratory course. The goal was to take an existing physical assembly, document its geometry, and recreate it as a complete SolidWorks assembly.
 
-I chose an Iron Man arc reactor because it was a much better challenge than modeling a single solid part. Its layered construction, nested rings, repeated features, and large number of interconnected components required careful measurement and assembly planning.
+I chose an Iron Man arc reactor because it was a much better challenge than modeling something simple like skateboard trucks. Its layered construction, nested rings, repeated features, and large number of interconnected components required careful measurement and assembly planning.
 
 My work focused on disassembling the physical reference, measuring and sketching its components, building the individual CAD models, and reconstructing the full assembly in SolidWorks. I did not manufacture or 3D print the physical reactor shown in the photographs.
 
