@@ -33,14 +33,14 @@ The Arduino was programmed to control the LEDs as individual outputs. This helpe
 
 - Reading a basic circuit layout
 - Using breadboard power and ground connections
-- Selecting and placing current-limiting resistors
+- Selecting and placing current limiting resistors
 - Connecting components to digital output pins
 - Uploading and testing Arduino programs
 - Checking wiring when the physical output did not match the intended sequence
 
 {% include image-gallery.html images="led-lights.jpeg" height="600" %}
 
-*Arduino-controlled LED circuit assembled and tested on a breadboard.*
+*Arduino controlled LED circuit assembled and tested on a breadboard.*
 
 Even though the circuit was simple, it introduced an important mechatronics lesson: the program can be correct while the physical system is still wrong. Loose connections, incorrect pin placement, reversed LED polarity, or a missing ground can prevent the circuit from working as expected.
 
@@ -48,13 +48,13 @@ Even though the circuit was simple, it introduced an important mechatronics less
 
 ## DC Motor Control
 
-The next build introduced motor control using an Arduino Mega, an external DC power supply, and a motor-driver module.
+The next build introduced motor control using an Arduino Mega, an external DC power supply, and a motor driver module.
 
-The motor driver acted as the interface between the Arduino and the DC motor. The Arduino provided the low-power control signals, while the external power supply provided the electrical power required to operate the motor.
+The motor driver acted as the interface between the Arduino and the DC motor. The Arduino provided the low power control signals, while the external power supply provided the electrical power required to operate the motor.
 
 {% include image-gallery.html images="motor.jpeg" height="600" %}
 
-*DC motor test setup using an Arduino Mega, motor-driver module, breadboard, and programmable power supply.*
+*DC motor test setup using an Arduino Mega, motor driver module, breadboard, and programmable power supply.*
 
 This setup helped me understand why a motor should not be powered directly from an Arduino output pin. Motors require more current than the microcontroller can safely provide and can introduce electrical loads that must be managed separately.
 
