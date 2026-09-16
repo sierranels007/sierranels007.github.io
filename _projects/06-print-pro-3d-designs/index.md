@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Print Pro 3D Designs
-description: Founded and operate a small additive-manufacturing business where I design, prototype, troubleshoot, and produce customized products for more than 300 customer orders.
+description: Founded and operate a small additive manufacturing business where I design, prototype, troubleshoot, and produce customized products for more than 300 customer orders.
 skills:
   - Product Design
   - Additive Manufacturing
@@ -31,7 +31,7 @@ Basically, I get to be the designer, manufacturing engineer, quality department,
 
 ---
 
-## Customer-Driven Product Design
+## Customer Driven Product Design
 
 For custom paddles, the customer usually tells me who the paddle is for, the organization they represent, their preferred colors, and any names, dates, symbols, or themes they want included. From there, they give me room to add my own creativity and turn those details into a design that feels personal and actually looks cool.
 
@@ -58,7 +58,7 @@ I also develop original products from an initial concept through a finished phys
 
 {% include image-gallery.html images="ufo-cad-render.jpeg,kelp-shake-render.jpeg" height="450" %}
 
-*Original UFO and Kelp Shake concepts developed as three-dimensional models.*
+*Original UFO and Kelp Shake concepts developed as three dimensional models.*
 
 {% include image-gallery.html images="kelp-shake-print.jpeg" height="550" %}
 
@@ -66,7 +66,7 @@ I also develop original products from an initial concept through a finished phys
 
 ### Multicolor Wall Art
 
-I also prepare custom wall art by converting two-dimensional artwork into layered, printable geometry. The design is separated by color in the slicer, where I review the boundaries, small details, and material assignments before production.
+I also prepare custom wall art by converting two dimensional artwork into layered, printable geometry. The design is separated by color in the slicer, where I review the boundaries, small details, and material assignments before production.
 
 {% include image-gallery.html images="art.jpeg" height="600" %}
 
@@ -78,7 +78,7 @@ Seeing the CAD model become a physical product provides immediate design feedbac
 
 ---
 
-## Iterative Lighter-Case Design
+## Iterative Lighter Case Design
 
 The custom lighter case was one of my most useful exercises in dimensional refinement. The design needed to fit around an existing product while leaving the operating components accessible.
 
@@ -127,7 +127,7 @@ When a print fails, I work through the system instead of immediately running the
 - Nozzle condition and material flow
 - Filament loading and the AMS feed path
 - Slicer parameters and color assignments
-- Signs of warping, shifting, under-extrusion, or accumulated material
+- Signs of warping, shifting, under extrusion, or accumulated material
 
 One particularly aggressive failure caused filament to accumulate around the nozzle and hotend rather than forming the intended part.
 
