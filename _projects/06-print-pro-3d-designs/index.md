@@ -131,8 +131,11 @@ When a print fails, I work through the system instead of immediately running the
 
 One particularly aggressive failure caused filament to accumulate around the nozzle and hotend rather than forming the intended part.
 
-<video controls playsinline preload="metadata" style="display: block; width: 100%; max-width: 500px; margin: 1.5rem auto; border-radius: 12px;">
-  <source src="nozzle-clog-troubleshooting.mp4" type="video/mp4">
+<video controls playsinline preload="metadata"
+       style="display:block; width:100%; max-width:500px; margin:1.5rem auto; border-radius:12px;">
+  <source
+    src="{{ '/projects/06-print-pro-3d-designs/nozzle-clog.mov' | relative_url }}"
+    type="video/quicktime">
   Your browser does not support embedded video.
 </video>
 
