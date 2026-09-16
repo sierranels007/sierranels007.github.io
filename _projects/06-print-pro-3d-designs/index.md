@@ -131,13 +131,16 @@ When a print fails, I work through the system instead of immediately running the
 
 One particularly aggressive failure caused filament to accumulate around the nozzle and hotend rather than forming the intended part.
 
-<video controls playsinline preload="metadata"
-       style="display:block; width:100%; max-width:500px; margin:1.5rem auto; border-radius:12px;">
-  <source
-    src="{{ '/projects/06-print-pro-3d-designs/nozzle-clog.mov' | relative_url }}"
-    type="video/quicktime">
-  Your browser does not support embedded video.
-</video>
+<div style="display:flex; justify-content:center; margin:1.5rem 0;">
+  <iframe
+    src="https://www.youtube.com/embed/UnVlnwyphzY"
+    title="3D printer nozzle clog troubleshooting"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="width:100%; max-width:420px; aspect-ratio:9/16; height:auto; border:0; border-radius:12px;">
+  </iframe>
+</div>
 
 *Material accumulation around the nozzle and hotend during a failed print.*
 
