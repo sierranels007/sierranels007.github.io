@@ -78,6 +78,25 @@ This stage reinforced how small dimensional differences can affect the performan
 
 ---
 
+## Functional Demonstration
+
+The completed Stirling engine was tested using an external heat source. Once sufficient thermal energy was supplied, the piston and crank mechanism produced continuous flywheel rotation.
+
+<div style="display:flex; justify-content:center; margin:1.5rem 0;">
+  <iframe
+    src="https://www.youtube.com/embed/pAdkZiL4HL0"
+    title="Stirling engine functional demonstration"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="width:100%; max-width:420px; aspect-ratio:9/16; height:auto; border:0; border-radius:12px;">
+  </iframe>
+</div>
+
+*Functional testing of the completed Stirling engine under an external heat source.*
+
+---
+
 ## Engineering Takeaways
 
 This project connected CAD, engineering documentation, fabrication, assembly, and testing into one complete workflow. Building the physical engine showed me that a successful mechanism depends on more than getting each individual component right. The interfaces between parts alignment, fit, clearance, and motion are what determine whether the complete system actually works.
