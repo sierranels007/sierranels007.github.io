@@ -14,7 +14,7 @@ skills:
   - Functional Testing
   - Troubleshooting
 
-main-image: /projects/04-automated-can-crusher/can-crusher.jpeg
+main-image: /can-crusher.jpeg
 ---
 
 ## Project Context
