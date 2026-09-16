@@ -14,7 +14,7 @@ skills:
   - Functional Testing
   - Troubleshooting
 
-main-image: /can-crusher.jpeg
+main-image: /projects/04-automated-can-crusher/can-crusher.jpeg
 ---
 
 ## Project Context
@@ -59,7 +59,7 @@ The mechanical design included:
 
 {% include image-gallery.html images="actuator-housing.jpeg" height="550" %}
 
-*FDM-printed actuator housing used to support the motor-driven mechanism and maintain its alignment during operation.*
+*FDM printed actuator housing used to support the motor driven mechanism and maintain its alignment during operation.*
 
 The position of the crushing plate and can holder was evaluated to reduce off center loading. Misalignment could cause the can to tilt, buckle unpredictably, or interfere with the enclosure instead of compressing cleanly.
 
@@ -85,13 +85,43 @@ This kept the control system straightforward while still connecting the mechanic
 
 ---
 
+## Prototype Demonstration
+
+The videos below show the assembled prototype during functional testing and demonstrate the actuator driven crushing motion.
+
+<div style="display:flex; justify-content:center; align-items:flex-start; gap:1.5rem; flex-wrap:wrap; margin:1.5rem 0;">
+
+  <iframe
+    src="https://www.youtube.com/embed/8lSjFiVhfJM"
+    title="Automated can crusher functional test 1"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="width:100%; max-width:340px; aspect-ratio:9/16; height:auto; border:0; border-radius:12px;">
+  </iframe>
+
+  <iframe
+    src="https://www.youtube.com/embed/oO_3jDdR3bo"
+    title="Automated can crusher functional test 2"
+    loading="lazy"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    style="width:100%; max-width:340px; aspect-ratio:9/16; height:auto; border:0; border-radius:12px;">
+  </iframe>
+
+</div>
+
+*Functional testing of the switch controlled actuator and crushing mechanism.*
+
+---
+
 ## Functional Result
 
 The completed prototype successfully used the motor driven actuator to apply enough force to crush an aluminum can.
 
 {% include image-gallery.html images="crushed-can.jpeg" height="550" %}
 
-*Aluminum can positioned beneath the crushing plate during functional testing.*
+*Crushed aluminum can beneath the crushing plate following functional testing.*
 
 The crushing plate traveled vertically through the enclosure while the can holder helped keep the can beneath the actuator. After compression, the switch could be reversed to raise the plate and reset the system.
 
