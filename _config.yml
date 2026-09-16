@@ -100,8 +100,7 @@ coursework:
 
 # Contact form
 # Leave blank until a Formspree account is connected.
-formspree-key:
-
+formspree-key: mdeknlad
 
 # Active color theme
 colors:
